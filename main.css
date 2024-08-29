@@ -1,0 +1,52 @@
+body {
+    background: darkblue;
+    min-height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.currency {
+    width: 560px;
+    height: fit-content;
+    background-color: red;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 26px 32px 39px;
+    background-color: #0c1613f0;
+    border-radius: 15px;
+
+}
+.currency div {
+    height: 100px;
+}
+.amount, 
+.eg, 
+.sy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.currency label {
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+input {
+    border: transparent;
+    outline: none;
+    background-color: #ffff;
+    padding: 10px 50px;
+    text-align: center;
+    border-radius: 37px;
+}
